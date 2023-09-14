@@ -22,3 +22,14 @@ Content-Type: application/json
 {
   "prompt": "shopping, store, buy things"
 }
+
+###
+# @name generate-ai-completion
+POST http://localhost:3333/ai/complete
+Content-Type: application/json
+
+{
+  "videoId": "2b6bcea1-2971-4abe-bc3f-47aa01c5b59b",
+  "template": "test",
+  "temperature": 0.7
+}
