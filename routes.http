@@ -30,6 +30,6 @@ Content-Type: application/json
 
 {
   "videoId": "2b6bcea1-2971-4abe-bc3f-47aa01c5b59b",
-  "template": "test",
+  "prompt": "test",
   "temperature": 0.7
 }
